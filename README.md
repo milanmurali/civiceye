@@ -87,7 +87,6 @@ CivicEye/
 │   ├── node_modules/          # Project dependencies
 │   ├── public/                # Static assets
 │   ├── src/                   # Source code (components, pages, etc.)
-│   ├── .gitignore             # Git ignore rules
 │   ├── eslint.config.js       # ESLint configuration
 │   ├── index.html             # Base HTML file
 │   ├── package.json           # Project metadata and scripts
@@ -95,6 +94,6 @@ CivicEye/
 │   ├── tailwind.config.js     # Tailwind CSS configuration
 │   └── vite.config.js         # Vite bundler configuration
 │
-└── README.md                  # You're reading it 🙂
-
+├── README.md                  # You're reading it 🙂
+└── .gitignore                 # Git ignore rules
 ```
