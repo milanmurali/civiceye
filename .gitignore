@@ -1,32 +1,28 @@
 # Ignore Visual Studio Code settings
 .vscode/
+C/.vscode/
 
 # Ignore local history in Visual Studio Code
 .history/
 
-# Node modules
-node_modules/
-/Backend/node_modules/
-/Frontend/civiceye/node_modules/
+# Ignore node_modules in all folders
+**/node_modules/
 
-# Ignore build output
-/Frontend/civiceye/dist/
-/Frontend/civiceye/dist-ssr/
+# Ignore specific folders
+Tests/
 
-# Environment variables
+# Ignore specific files
+.gitignore
+
+# Ignore built Visual Studio Code Extensions
+*.vsix
+
+# Ignore .env files
 .env
 .env.local
 .env.development
 .env.test
 .env.production
+
+# Ignore backup or temporary files
 .env.*
-
-# Ignore log files
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-
-# Ignore other common files
-.DS_Store
-.idea/
