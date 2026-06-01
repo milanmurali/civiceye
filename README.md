@@ -40,7 +40,7 @@
 
 ---
 
-
+<!--
 ## 🔮 Upcoming Features
 
 We're actively working on making CivicEye more robust and secure. Here's what's planned next:
@@ -68,6 +68,7 @@ Localize the app to support regional languages for broader accessibility.
 
 ---
 
+-->
 
 ## 📁 Folder Structure
 
